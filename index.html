@@ -5,15 +5,59 @@
     </body>
     <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
-    <script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
         const root = document.getElementById("root");
         //createElement("a") -> "a" should be the name of the element you want to create
-        const span = React.createElement("h3", {id:"sexy-span", style: {color:"red"}}, "Hello I'm a span");
-        const btn = React.createElement("button", null, "Click me")
-        const container = React.createElement("div", null, [span, btn]);
+        function Title() {
+            return(
+                <h3 id="title" onMouseEnter={() => console.log("mouse enter")}>
+                Hello I'm the title</h3>
+            )
+        };
+
+        //OLD WAY
+        // const h3 = React.createElement(
+        //     "h3", 
+        //     {
+        //     onMouseEnter:() => console.log("mouse enter"),
+        //     }, 
+        //     "Hello I'm a span"
+        // );
+        
+        
+        const Button = () => (
+            <button 
+            style = {{
+                backgroundColor:"tomato",
+            }}
+            onClick={()=> console.log("im clicked")}
+            >
+            Click me
+            </button>
+        );
+
+        //OLD WAY
+        // const btn = React.createElement(
+        //     "button", 
+        //     {
+        //     onClick: () => console.log("I'm Clicked"),
+        //     style: {
+        //         backgroundColor: "tomato",
+        //     }
+        //     }, 
+        //     "Click me"
+        // );
+
+        const Container = () =>(
+            <div>
+                <Title />
+                <Button />        
+            </div>
+        );
         // render() -> show it to the users
         // In ReactJS, everything begins with javascript and ends with html. (We can update elements and are in control of it)
         // On the other hand, VanillaJS use html -> then manipulate javascript after
-        ReactDOM.render(container, root);
+        ReactDOM.render(<Container />, root);
     </script>
 </html>
