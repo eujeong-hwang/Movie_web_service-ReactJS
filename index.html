@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+       <div id="root"></div>
+    </body>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script>
+        const root = document.getElementById("root");
+        //createElement("a") -> "a" should be the name of the element you want to create
+        const span = React.createElement("h3", {id:"sexy-span", style: {color:"red"}}, "Hello I'm a span");
+        const btn = React.createElement("button", null, "Click me")
+        const container = React.createElement("div", null, [span, btn]);
+        // render() -> show it to the users
+        // In ReactJS, everything begins with javascript and ends with html. (We can update elements and are in control of it)
+        // On the other hand, VanillaJS use html -> then manipulate javascript after
+        ReactDOM.render(container, root);
+    </script>
+</html>
