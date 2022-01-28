@@ -14,7 +14,7 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
     - JSX produces React "elements".
 
 - State
-    - Where our data will exist
+    - Where our data exists
 - Props
 - Class Components
 - Data Fetching
