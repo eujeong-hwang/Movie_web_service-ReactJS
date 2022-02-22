@@ -19,3 +19,13 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
 - Class Components
 - Data Fetching
 - Routing
+
+# In JSX, not Javascript
+
+- We should use "htmlFor" instead of "for"
+- We should use "className" instead of "class"
+
+
+
+# Python lecture
+https://www.youtube.com/watch?v=kWiCuklohdY
