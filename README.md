@@ -15,6 +15,7 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
 
 - State
     - Where our data exists
+    - Onclick vs. Onchange ??
 - Props
 - Class Components
 - Data Fetching
