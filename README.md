@@ -17,6 +17,7 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
     - Where our data exists
     - Onclick vs. Onchange ??
 - Props
+    - a
 - Class Components
     - Component is a function that returns some jsx.
 - Data Fetching
