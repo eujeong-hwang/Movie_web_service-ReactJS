@@ -3,7 +3,7 @@
 https://nomadcoders.co/react-for-beginners/lectures/3261
 
 # I used...
-- JSX
+#### JSX
     ```
     const element = <h1>Hello, world!</h1>;
     ```
@@ -13,10 +13,11 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
     - JSX may remind you of a template language, but it comes with the full power of JavaScript.
     - JSX produces React "elements".
 
-- State
+#### State
     - Where our data exists
     - Onclick vs. Onchange ??
-- Props
+
+#### Props
 
 ```
 function Welcome(props) {
@@ -39,11 +40,13 @@ ReactDOM.render(
 );
 ```
 
-- Class Components
+#### Class Components
     - https://reactjs.org/docs/components-and-props.html
+    - Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
     - Component is a function that returns some jsx.
-- Data Fetching
-- Routing
+
+#### Data Fetching
+#### Routing
 
 # In JSX, not Javascript
 
