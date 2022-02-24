@@ -18,6 +18,7 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
     - Onclick vs. Onchange ??
 - Props
 - Class Components
+    - Component is a function that returns some jsx.
 - Data Fetching
 - Routing
 
