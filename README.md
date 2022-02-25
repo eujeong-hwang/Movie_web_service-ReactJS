@@ -8,12 +8,12 @@ https://nomadcoders.co/react-for-beginners/lectures/3261
 ```
 const element = <h1>Hello, world!</h1>;
 ```
-    - https://reactjs.org/docs/introducing-jsx.html
     - This funny tag syntax is neither a string nor HTML.
     - JSX is a syntax extension to Javascript. Recommend using it with React to describe 
     what the UI should look like.
     - JSX may remind you of a template language, but it comes with the full power of JavaScript.
     - JSX produces React "elements".
+    - https://reactjs.org/docs/introducing-jsx.html
 
 #### State
     - Where our data exists
@@ -43,10 +43,10 @@ ReactDOM.render(
 ```
 
 #### Class Components
-    - https://reactjs.org/docs/components-and-props.html
     - Conceptually, components are like JavaScript functions. 
     They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
     - Component is a function that returns some jsx.
+    - https://reactjs.org/docs/components-and-props.html
 
 #### Data Fetching
 #### Routing
